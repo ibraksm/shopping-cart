@@ -1,0 +1,28 @@
+:root {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    --light-yellow: rgb(255, 206, 18);
+    --dark-yellow: #e9bd10;
+}
+
+button {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    background-color: var(--light-yellow);
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px 0;
+}
+
+button:hover {
+    background-color: var(--dark-yellow);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}

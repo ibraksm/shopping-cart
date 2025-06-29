@@ -1,0 +1,7 @@
+.cart-link-container {
+    display: flex;
+}
+
+.cart-link-container p { /*Nb items in cart*/
+    margin: 0 5px;
+}
